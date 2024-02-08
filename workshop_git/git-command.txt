@@ -41,3 +41,16 @@ git basic commands
 
     ->git checkout second-branch
         =>switch to second-branch
+
+    ->git checkout -b third-branch
+        =>creates and switch to third-branch
+
+
+-> git remote add origin URL
+    =>connect Local repository to remote repository
+
+->git push -u origin master 
+    =>push changes to remote repository from local repository 
+
+
+
