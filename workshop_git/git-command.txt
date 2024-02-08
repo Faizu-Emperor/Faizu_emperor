@@ -1,12 +1,15 @@
 git basic commands
 ---------------------------
 ->git stutus
+    =>to check the status
 ->git init
-=>init anew repository in local directory
+    =>init anew repository in local directory
+
 ->git add fliename
-=>add file to staging area
+    =>add file to staging area
 ->git add.
-=>add all untracked files and changes to straging area
+    =>add all untracked files and changes to straging area
+
 ->git commit -m "new files added"
  => commit this file to respository
 
@@ -18,4 +21,23 @@ git basic commands
 ->git diff
     =>KNow exactly what you have changed 
 -> Q is for quiting from the terminal
-some changes
+
+-> git li-files 
+    => list all files available in staging area
+
+->git rm filename 
+    =>remove this file from staging area and local directory.
+
+-> git rm --cached fliename
+    => you want to keep the file in your hard disk but you don't want git to track this file anymore.
+
+*Branch :-
+------------
+    ->git Branch
+        =>returns all branches
+
+    ->git branch second-branch
+        => create another branch whose name is second-branch
+
+    ->git checkout second-branch
+        =>switch to second-branch
