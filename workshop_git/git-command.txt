@@ -52,5 +52,8 @@ git basic commands
 ->git push -u origin master 
     =>push changes to remote repository from local repository 
 
+-> git push --set-upstream origin name
 
+->git clone 
+->git pull
 
