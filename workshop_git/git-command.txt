@@ -1,0 +1,21 @@
+git basic commands
+---------------------------
+->git stutus
+->git init
+=>init anew repository in local directory
+->git add fliename
+=>add file to staging area
+->git add.
+=>add all untracked files and changes to straging area
+->git commit -m "new files added"
+ => commit this file to respository
+
+ ->git config --global user.email "youremilid@gmail.com"
+ ->git config --global user.name "your name"
+
+->git log 
+    =>what we change it will show in that.
+->git diff
+    =>KNow exactly what you have changed 
+-> Q is for quiting from the terminal
+some changes
